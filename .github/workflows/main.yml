@@ -22,6 +22,6 @@ jobs:
           folder: www
       - uses: logseq/publish-spa@main
         with:
-          graph-directory: my-logseq-notes
+          graph-directory: garden
           output-directory: out
           version: nightly
